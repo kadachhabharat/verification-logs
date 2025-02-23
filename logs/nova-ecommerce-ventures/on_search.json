@@ -1,1 +1,31 @@
 
+{
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "on_search",
+    "transaction_id": "12345",
+    "message_id": "abcde",
+    "timestamp": "2024-10-01T10:00:00Z"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "Sample Product"
+        }
+      },
+      "fulfillment": {
+        "end": {
+          "location": {
+            "city": {
+              "code": "std:080"
+            },
+            "country": {
+              "code": "IN"
+            }
+          }
+        }
+      }
+    }
+  }
+}
